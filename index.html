@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age to Days</title>
+  <link rel="stylesheet" href="./asset/css/app.css">
+  <link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='./assets/styles/app.css'>
+  <script src="https://kit.fontawesome.com/98aee29468.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <h1> <i class="fas fa-calendar-day"></i> Your Age To Days Calculator </h1>
+  </header>
+
+  <div class="container">
+
+    <div id="age-box">
+      <input placeholder="Input Age" id="age-input" type="text">
+      <button type="button" id="btn-check"> Check </button>
+    </div>
+
+    <div id="result-box">
+      <h2 id="result-calculation"> 0 </h2>
+      <h2> Your Age in Days = <span id="result-output" type="text"></span> </h2>
+    </div>
+    <p> <i class="fas fa-exclamation-triangle" style="color: red;"></i> Default days used is 365 days.</p>
+
+  </div>
+
+  <footer id="footer"> &copy; 2021. Copyright Age To Days Calculator</footer>
+
+  <script src="./asset/scripts/main.js"></script>
+  <script src="./asset/scripts/app.js"></script>
+</body>
+</html>
